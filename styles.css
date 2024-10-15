@@ -59,3 +59,23 @@ header h1, .details h2 {
 .map-button:hover {
     background-color: #bf0040;
 }
+
+/* Pastki tugma stilini tepadagi bilan bir xil qilish uchun o'zgartirish */
+.btn {
+    margin-top: 12px;
+    background-color: #d60051; /* Karta orqali ochish tugmasi bilan bir xil rang */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover holati */
+.btn:hover {
+    background-color: #bf0040; /* Hover holati uchun Karta orqali ochish tugmasiga o'xshash rang */
+}
